@@ -1,0 +1,130 @@
+.nav-container {
+  display: flex;
+  height: 125px;
+}
+
+.navbar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: x-small;
+  color: #000;
+  display: flex;
+  height: 100px;
+}
+
+.navbar .nav-left {
+  /*margin-left: 1rem*/
+  background: url("https://lh3.google.com/u/0/d/1arpPOUqyHJYXDlwHEfreoAaFfwXrxm-0=w1120-h880-iv1") center center;
+  width: 90px;
+}
+
+.navbar .nav-right {
+  margin-right: 1rem;
+  display: flex;
+  justify-content: flex-end space-around;
+  align-items: center;
+  width: 600px;
+}
+
+a:link {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:active {
+  color: #000;
+}
+
+.bottle-pic {
+  background: url("https://www.crownmaple.com/sites/default/files/u11/P1020767.JPG") center center;
+  background-size: 100%;
+  height: 400px;
+}
+
+.black-box {
+  background: #212020;
+  height: 400px;
+}
+
+.text-box {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bb-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  color: #7c7676;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+h2, .btn {
+  float: left;
+  margin: 0;
+}
+
+.boxes-row {
+  background-color: #f7f4f4;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding-top: 90px;
+  color: #ffffff;
+}
+
+.box-text {
+  width: 199px;
+  height: 50px;
+  color: #262522;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box1 {
+  background-color: #0d7730;
+}
+
+.box2 {
+  background-color: #7a8e81;
+}
+
+.box3 {
+  background-color: #ccc130;
+}
+
+.footer {
+  height: 150px;
+  background-color: #000;
+  color: #f7f4f4;
+  padding-left: 35px;
+}
+
+.footer .footer-left {
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-top: 75px;
+  font-size: small;
+}
+
+.footer .footer-right {
+  padding-top: 55px;
+  font-size: medium;
+  font-family: serif;
+  line-height: 10px;
+}
